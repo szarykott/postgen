@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "7dd3416a-3a9f-4fc6-810b-12adbbfb49e0",
+		"name": "Application Controllers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19131740"
+	},
+	"item": [
+		{
+			"name": "WeatherForecast",
+			"item": [
+				{
+					"name": "Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://example.com/WeatherForecast/",
+							"protocol": "http",
+							"host": [
+								"example",
+								"com"
+							],
+							"path": [
+								"WeatherForecast",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "IceCream",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"strawberry\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://example.com/IceCream",
+							"protocol": "http",
+							"host": [
+								"example",
+								"com"
+							],
+							"path": [
+								"IceCream"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

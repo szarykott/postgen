@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postgen", "Postgen\Postgen.csproj", "{1DF48F5C-B479-47D3-B924-B3487B9CEAD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "items", "items", "{50B6BDB8-8B9E-4DFB-95A6-007A6E2BDC8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postgen.TestWebApp", "Postgen.TestWebApp\Postgen.TestWebApp.csproj", "{259DB7A6-5C60-4D97-86A0-01900BA40559}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "schema", "schema", "{2B77126B-8697-4B9B-ACED-2F12B70C7130}"
+	ProjectSection(SolutionItems) = preProject
+		docs\schema\example.postman_collection.json = docs\schema\example.postman_collection.json
+		docs\schema\postman_schema_v21.json = docs\schema\postman_schema_v21.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DF48F5C-B479-47D3-B924-B3487B9CEAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF48F5C-B479-47D3-B924-B3487B9CEAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF48F5C-B479-47D3-B924-B3487B9CEAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF48F5C-B479-47D3-B924-B3487B9CEAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{259DB7A6-5C60-4D97-86A0-01900BA40559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{259DB7A6-5C60-4D97-86A0-01900BA40559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{259DB7A6-5C60-4D97-86A0-01900BA40559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{259DB7A6-5C60-4D97-86A0-01900BA40559}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B77126B-8697-4B9B-ACED-2F12B70C7130} = {50B6BDB8-8B9E-4DFB-95A6-007A6E2BDC8A}
+	EndGlobalSection
+EndGlobal
